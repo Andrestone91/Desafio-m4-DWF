@@ -2,7 +2,7 @@ function addheader(ele) {
   const headerEl = document.createElement("div");
   headerEl.innerHTML = ` <div class="header-contenedor">
   <a href="./index.html">
-    <img src="../images/Andrestone.png" alt="" class="header-imagen" />
+    <img src="./images/Andrestone.png" alt="" class="header-imagen" />
   </a>
   <div></div>
   <div></div>
@@ -16,14 +16,14 @@ function addheader(ele) {
       <button class="ventana__cierra-ventana"></button>
     </div>
     <div class="ventana__contenido">
-      <a class="ventana__text" href="../portfolio.html">Portfolio</a>
-      <a class="ventana__text" href="../servicios.html">Servicios</a>
-      <a class="ventana__text" href="../contacto.html">Contacto</a>
+      <a class="ventana__text" href="./portfolio.html">Portfolio</a>
+      <a class="ventana__text" href="./servicios.html">Servicios</a>
+      <a class="ventana__text" href="./contacto.html">Contacto</a>
 
-      <img class="ventana__cruz" src="../images/cruz.svg" alt="" />
+      <img class="ventana__cruz" src="./images/cruz.svg" alt="" />
     </div>
   </div>
-  <img class="burger" src="../images/burger.png" alt="" />
+  <img class="burger" src="./images/burger.png" alt="" />
 </div>`;
 
   ele.appendChild(headerEl);
