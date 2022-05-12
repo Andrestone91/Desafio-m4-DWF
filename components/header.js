@@ -1,14 +1,14 @@
 function addheader(ele) {
   const headerEl = document.createElement("div");
   headerEl.innerHTML = ` <div class="header-contenedor">
-  <a href="../index.html">
+  <a href="./index.html">
     <img src="../images/Andrestone.png" alt="" class="header-imagen" />
   </a>
   <div></div>
   <div></div>
-  <a href="../portfolio.html" class="text-nav">Portfolio</a>
-  <a href="../servicios.html" class="text-nav">Servicios</a>
-  <a href="../contacto.html" class="text-nav">Contacto</a>
+  <a href="./portfolio.html" class="text-nav">Portfolio</a>
+  <a href="./servicios.html" class="text-nav">Servicios</a>
+  <a href="./contacto.html" class="text-nav">Contacto</a>
 
   <button class="abre-ventana"></button>
   <div class="ventana">
