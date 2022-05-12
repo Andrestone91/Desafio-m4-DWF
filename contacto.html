@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio dwf4 Contacto Andrestone</title>
+
+    <link rel="stylesheet" href="./components/footer.css" />
+    <script src="./components/footer.js"></script>
+
+    <link rel="stylesheet" href="./components/header.css" />
+    <script src="./components/header.js"></script>
+
+    <link rel="stylesheet" href="./pages/contacto.css" />
+    <script defer src="./pages/contacto.js"></script>
+    <script defer src="./components/contact.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="contenedor__header-div">
+      <header class="contenedor__header"></header>
+
+      <section class="formulario">
+        <h2 class="formulario__title-text">Contacto 😄</h2>
+        <form class="form">
+          <label for="nombre">
+            <p class="input-text">NOMBRE</p>
+            <input class="input-caja" type="text" id="nombre" />
+          </label>
+          <label for="mail">
+            <p class="input-text">EMAIL</p>
+            <input class="input-caja" type="email" id="mail" />
+          </label>
+          <label for="mensaje">
+            <p class="input-text">Mensaje</p>
+            <textarea class="input-caja textarea" id="mensaje"></textarea>
+          </label>
+          <button class="button">Enviar</button>
+        </form>
+      </section>
+    </div>
+
+    <footer class="contenedor__footer"></footer>
+  </body>
+</html>

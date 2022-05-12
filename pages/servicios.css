@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins&display=swap");
+.serviciosPage {
+  background-color: #000000;
+}
+@media (min-width: 960px) {
+  .serviciosPage__contenedor-servicios {
+    height: 500px;
+    width: 100%;
+    text-align: left;
+  }
+}
+@media (min-width: 960px) {
+  .serviciosPage__contenedor-header-y-servicios {
+    background: linear-gradient(
+      107.17deg,
+      black 29.35%,
+      rgba(49, 126, 210, 0.8) 78.73%
+    );
+  }
+}
+.serviciosPage__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  text-shadow: 0 0 23px red;
+  color: orange;
+  margin: 90px 0 100px 0;
+  text-align: center;
+}
+@media (min-width: 960px) {
+  .serviciosPage__title {
+    text-align: left;
+    margin: 150px 0 0 86px;
+  }
+}
+.serviciosPage__contenedor,
+.serviciosPage__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.serviciosPage__card {
+  width: 290px;
+}
+.serviciosPage__img {
+  width: 290px;
+  height: 172px;
+}
+.serviciosPage__caja-title,
+.serviciosPage__caja-pres {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+.serviciosPage__caja-pres {
+  font-size: 16px;
+  text-align: center;
+  margin: 0 0 105px 0;
+  padding: 0 30px;
+  line-height: 24px;
+  text-align: center;
+}
+.serviciosPage__container-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 960px) {
+  .serviciosPage__container-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    width: 100%;
+    margin-top: 113px;
+  }
+}

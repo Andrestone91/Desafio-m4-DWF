@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins&display=swap");
+.portfolioPage {
+  background-color: #000000;
+}
+@media (min-width: 960px) {
+  .portfolioPage__contenedor-portfolio {
+    height: 500px;
+    width: 100%;
+    text-align: left;
+  }
+}
+@media (min-width: 960px) {
+  .porfolioPage__contenedor-header-y-portfolio {
+    background: linear-gradient(
+      107.17deg,
+      black 29.35%,
+      rgba(49, 126, 210, 0.8) 78.73%
+    );
+  }
+}
+.portfolioPage__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  text-shadow: 0 0 23px red;
+  color: orange;
+  margin: 90px 0 100px 0;
+  text-align: center;
+}
+@media (min-width: 960px) {
+  .portfolioPage__title {
+    text-align: left;
+    margin: 150px 0 0 86px;
+  }
+}
+.portfolioPage__contenedor,
+.portfolioPage__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.portfolioPage__card {
+  width: 290px;
+}
+.portfolioPage__img {
+  width: 290px;
+  height: 172px;
+}
+.portfolioPage__caja-title,
+.portfolioPage__caja-pres {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+.portfolioPage__caja-pres {
+  font-size: 16px;
+  text-align: center;
+  margin: 0 0 20px 0;
+  padding: 0 30px;
+  line-height: 24px;
+  text-align: center;
+}
+.portfolioPage__container-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 960px) {
+  .portfolioPage__container-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    width: 100%;
+    margin-top: 113px;
+  }
+}
+.portfolio__link {
+  margin-bottom: 56px;
+  color: #fc6f50;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+}

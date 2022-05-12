@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins&display=swap");
+.header-contenedor {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 15px;
+}
+@media (min-width: 960px) {
+  .header-contenedor {
+    padding: 35px 50px 30px 50px;
+  }
+}
+.abre-ventana {
+  position: absolute;
+  right: 10px;
+  top: 17px;
+  width: 55px;
+  height: 70px;
+  opacity: 0;
+}
+@media (min-width: 960px) {
+  .abre-ventana {
+    display: none;
+  }
+}
+.ventana {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #161616;
+  padding-bottom: 35px;
+}
+.ventana__contenedor-boton {
+  text-align: right;
+}
+.ventana__text {
+  color: white;
+  margin: 30px;
+  font-family: "Monstserrat", sans-serif;
+  letter-spacing: -1px;
+  font-size: 48px;
+  text-decoration: none;
+  color: #fff;
+}
+.ventana__contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 10px;
+}
+.ventana__cruz {
+  position: absolute;
+  right: 19px;
+  top: 27px;
+}
+.ventana__cierra-ventana {
+  width: 60px;
+  height: 55px;
+  position: absolute;
+  top: 19px;
+  right: 8px;
+  opacity: 0;
+  z-index: 1;
+}
+.burger {
+  margin-top: 12px;
+}
+@media (min-width: 960px) {
+  .burger {
+    display: none;
+  }
+}
+
+.text-nav {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  display: none;
+  padding-top: 10px;
+  text-decoration: none;
+  text-shadow: 0 0 8px black;
+  color: orange;
+}
+@media (min-width: 960px) {
+  .text-nav {
+    display: block;
+  }
+}
+.header-burger {
+  display: block;
+}
+@media (min-width: 960px) {
+  .header-burger {
+    display: none;
+  }
+}
+.header-imagen {
+  margin-top: 10px;
+  width: 155px;
+  height: 48px;
+}
+@media (min-width: 960px) {
+  .header-imagen {
+    width: 197px;
+    height: 48px;
+    margin-right: 300px;
+  }
+}

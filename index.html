@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio dwf4 Andrestone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./components/header.css" />
+    <script defer src="./components/header.js"></script>
+
+    <link rel="stylesheet" href="./pages/contacto.css" />
+    <script defer src="./components/contact.js"></script>
+
+    <link rel="stylesheet" href="./components/footer.css" />
+    <script defer src="./components/footer.js"></script>
+
+    <link rel="stylesheet" href="./pages/index.css" />
+    <script defer src="./pages/index.js"></script>
+  </head>
+  <body>
+    <section class="bienvenida">
+      <header class="bienvenida__header-contenedor"></header>
+      <div class="bienvenida__contenedor">
+        <template id="bienvenida__template">
+          <h1 class="bienvenida__texto-hola-y-menu">Hola</h1>
+          <h2 class="bienvenida__name">Soy Marce</h2>
+        </template>
+      </div>
+    </section>
+    <section class="presentacion">
+      <div class="presentacion__contenedor"></div>
+      <template id="presentacion__template">
+        <img src="" alt="" class="presentacion__imagen" />
+        <div class="presentacion__container-text">
+          <h2 class="presentacion__title">Soy Marce</h2>
+          <p class="presentacion__texto">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique. Phasellus
+            placerat arcu elementum nisi ultrices cursus. Etiam sit amet aliquet
+            lacus. Integer ut iaculis augue, sit amet tincidunt ex. In eleifend
+            justo et sodales semper. Mauris nec tortor lectus. Curabitur nec
+            ultricies dolor.
+          </p>
+        </div>
+      </template>
+    </section>
+
+    <section class="servicios">
+      <h2 class="servicios__title">Mis servicios 📢</h2>
+      <div class="servicios__contenedor"></div>
+      <template id="servicios__template">
+        <div class="sevicios__caja">
+          <img src="./images/desktop 1.png" alt="" class="servicios__imagen" />
+          <h3 class="sevicios__subtitulo">Hago Cosas</h3>
+          <p class="servicios__texto">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique.
+          </p>
+        </div>
+      </template>
+    </section>
+
+    <form class="formulario__contenedor">
+      <h2 class="formulario__title">Escribime</h2>
+      <div class="formulario__contenedor-input"></div>
+    </form>
+
+    <footer class="footer__contenedor"></footer>
+  </body>
+</html>
